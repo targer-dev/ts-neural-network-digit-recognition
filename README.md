@@ -11,7 +11,7 @@
 - TBD. Work in progress.
 
 # YouTube videos
-- Голим TypeScript пишу нейромережу. Part 1. (18 Feb 2023)
+- [Голим TypeScript пишу нейромережу. Part 1.](https://youtu.be/1_gQgY8Jf5k) (18 Feb 2023)
 
 # Run locally
 

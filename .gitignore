@@ -1,0 +1,10 @@
+node_modules
+
+/dist
+/tmp
+
+.idea
+.git
+
+.DS_Store
+.thumbsdb

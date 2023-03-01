@@ -1,15 +1,10 @@
-// sigmoid aka logistic function
-const sigmoid = (z: number) => 1.0 / (1.0 + Math.exp(-z));
+import { load_data_wrapper } from './mnistLoader';
+import { Network } from './network';
 
-// test sigmoid works as expected
-const testSigmoid = (z: number) => console.log(z, 'sigma =', sigmoid(z));
+const net = new Network([784, 30, 10]);
 
-testSigmoid(-5e3);
-testSigmoid(-10);
-testSigmoid(-.5212);
-testSigmoid(0);
-testSigmoid(0.1);
-testSigmoid(0.2);
-testSigmoid(.5212);
-testSigmoid(10);
-testSigmoid(5e3);
+const [training_data, validation_data, test_data] = load_data_wrapper();
+
+net.SGD(training_data, 30, 10, 3, test_data);
+
+console.log(net);

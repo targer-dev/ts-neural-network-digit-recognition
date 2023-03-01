@@ -12,6 +12,7 @@
 
 # YouTube videos
 - [Голим TypeScript пишу нейромережу. Part 1.](https://youtu.be/1ZAn2wCTxYQ) (18 Feb 2023)
+- [Голим TypeScript пишу нейромережу. Part 2.](https://youtu.be/PK6Q7VV1XPM) (1 Mar 2023)
 
 # Run locally
 
